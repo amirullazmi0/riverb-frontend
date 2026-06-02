@@ -20,7 +20,7 @@ const releases = [
 
 export default function Release() {
      return (
-          <section id="profile" className="border-b border-[#050505]/20 bg-[#f5f7fb]">
+          <section id="profile" className="bg-[#f5f7fb]">
                <div className="mx-auto grid max-w-7xl gap-0 px-5 py-16 md:grid-cols-[0.9fr_1.1fr] md:px-8 md:py-24">
                     <div className="border-b border-[#050505]/20 pb-8 md:border-b-0 md:border-r md:pr-10">
                          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#0c70b8]">
@@ -70,8 +70,9 @@ export default function Release() {
                               </article>
                          ))}
                     </div>
-
-                    <div className="-mx-5 grid border-b border-[#050505]/20 border-t border-[#050505]/20 md:mx-0 md:grid-cols-2">
+               </div>
+               <div className="">
+                    <div className="-mx-5 grid md:mx-0 md:grid-cols-2">
                          <div className="">
                               <BandCarousel />
                          </div>
