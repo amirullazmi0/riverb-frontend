@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "deploy:vps": "caprover deploy"
+    "deploy:vps": "caprover deploy -n riverb -a riverb -b master"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
